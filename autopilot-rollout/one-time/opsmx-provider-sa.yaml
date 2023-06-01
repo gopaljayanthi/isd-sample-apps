@@ -13,6 +13,7 @@ rules:
       - "batch"
     resources:
       - jobs/status
+      - jobs
     verbs:
       - get
       - list
@@ -21,6 +22,7 @@ rules:
       - ""	
     resources:	
       - pods	
+      - configmaps
     verbs:	
       - get	
       - list
