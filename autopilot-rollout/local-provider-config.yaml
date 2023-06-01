@@ -8,7 +8,6 @@ metadata:
   name: local-provider-config  # This name is used in the AnalysisTemplate
 data:
   providerConfig: |
-  # application: autopilot-rollout # 
     lifetimeMinutes: 5         # No. of minutes to run the analysis
     passScore: 80
     gitops: true               # This should be removed
